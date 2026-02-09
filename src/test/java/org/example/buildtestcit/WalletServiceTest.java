@@ -35,7 +35,7 @@ public class WalletServiceTest {
     @Test
     void createWallet_validData_shouldSaveAndReturnResponse(){
         //Arrange
-        String email = "kacortez@espe.edu.ec";
+        String email = "sdquinga2@espe.edu.ec";
         double balance = 100.0;
 
         when(walletRepository.existsByOwnerEmail(email)).thenReturn(Boolean.FALSE);
